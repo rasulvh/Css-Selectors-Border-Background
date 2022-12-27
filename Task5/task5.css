@@ -1,0 +1,60 @@
+#main {
+    font-family: sans-serif;
+}
+
+img {
+    height: 300px;
+    width: 400px;
+    position: relative;
+    left: 563px;
+    bottom: -20px;
+}
+
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+}
+
+.input .email{
+    font-size: 20px;
+    height: 35px;
+    width: 300px;
+    position: relative;
+    left: 307px;
+    border-radius: 3px
+}
+.input .password{
+    font-size: 20px;
+    height: 35px;
+    width: 300px;
+    position: relative;
+    top: 41px;
+    right: 5px;
+    border-radius: 3px;
+}
+.input .submit{
+    font-size: 20px;
+    height: 35px;
+    width: 308px;
+    position: relative;
+    border-radius: 3px;
+    top: 102px;
+    right: 319px;
+    background-color: rgb(51, 51, 221);
+    border-color: rgb(51, 51, 221);
+    color: white;
+}
+
+.footer .creator{
+    position: relative;
+    left: 552px;
+    top: 202px;
+}
