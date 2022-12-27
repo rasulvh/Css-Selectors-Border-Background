@@ -1,0 +1,118 @@
+body{
+    font-family: sans-serif;
+}
+
+#main{
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+    height: 739px;
+    width: 1538px;
+    background-image: url(../Task4/Images-Task4/background-image.jpg);
+    background-size: cover;
+}
+
+.navbar .nav-area{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 70px;
+}
+
+.navbar .nav-area ul{
+    display: flex;
+}
+
+.navbar .nav-area ul li{
+    position: relative;
+    list-style: none;
+    right: 150px;
+    margin-right: 20px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .nav-area ul li a{
+    text-decoration: none;
+    color: grey;
+}
+
+.navbar .nav-area .vertical-line1{
+    border-left: 2px solid grey;
+    height: 60px;
+    position: relative;
+    left: 615px;
+    top: 5px;
+}
+
+.navbar .nav-area .vertical-line2{
+    border-left: 2px solid grey;
+    height: 60px;
+    position: relative;
+    left: 377px;
+    top: 5px;
+}
+
+.navbar .nav-area .name h1{
+    background-color: rgb(80, 196, 196);
+    position: relative;
+    bottom: 11px;
+    left: 168px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 10px;
+}
+
+.text-area .about{
+    background-color: white;
+    width: 700px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 168px;
+}
+
+.text-area .about h2{
+    position: relative;
+    left: 25px;
+    top: 20px;
+    color: rgb(80, 196, 196);
+}
+
+.text-area .horizontal-line{
+    border-top: 3px solid grey;
+    position: relative;
+    width: 655px;
+    left: 188px;
+    bottom: 450px;
+}
+
+.text-area .rasul-image img{
+    width: 150px;
+    height: 150px;
+}
+
+.text-area .rasul-image{
+    width: 150px;
+    height: 200px;
+    position: relative;
+    left: 188px;
+    bottom: 441px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.text-area .head{
+    position: relative;
+    left: 357px;
+    bottom: 445px;
+    padding-left: 10px;
+    display: inline;
+}
+
+.text-area .head h2{
+    display: inline;
+    color: grey;
+}
