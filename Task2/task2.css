@@ -1,0 +1,16 @@
+body{
+    font-family: sans-serif;
+    background-color: azure;
+}
+
+#main .list ul li a{
+    color: hotpink;
+}
+
+#main .text p{
+    background-color: hotpink;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
