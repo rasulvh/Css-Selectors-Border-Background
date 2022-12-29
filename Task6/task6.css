@@ -1,0 +1,324 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#main {
+    height: 723px;
+    width: 1519px;
+}
+
+.header {
+    background-color: rgb(48, 52, 52);
+    margin-top: -22px;
+    height: 67px;
+}
+
+.header h1 {
+    color: white;
+    position: relative;
+    top: 17px;
+    left: 30px;
+    width: 100px;
+}
+
+.header span {
+    color: orange;
+    position: relative;
+    bottom: 50px;
+    left: 123px;
+    font-size: 51px;
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: grey;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .nav-area ul {
+    display: flex;
+}
+
+.navbar .nav-area ul li {
+    list-style: none;
+    margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+    right: 40px;
+}
+
+.navbar .nav-area ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar .vertical-line1 {
+    border-right: 1px solid black;
+    height: 50px;
+    position: relative;
+    right: 372px;
+}
+
+.navbar .vertical-line2 {
+    border-right: 1px solid black;
+    height: 50px;
+    position: relative;
+    right: 290px;
+}
+
+.navbar .vertical-line3 {
+    border-right: 1px solid black;
+    height: 50px;
+    position: relative;
+    right: 208px;
+}
+
+.navbar .vertical-line4 {
+    border-right: 1px solid black;
+    height: 50px;
+    position: relative;
+    right: 126px;
+}
+
+.navbar .vertical-line5 {
+    border-right: 1px solid black;
+    height: 50px;
+    position: relative;
+    right: 44px;
+}
+
+.body .first-body {
+    height: 175px;
+    width: 1000px;
+    position: relative;
+    top: 40px;
+    left: 25px;
+}
+
+.body .first-body .grey-image-1 {
+    background-color: grey;
+    height: 150px;
+    width: 150px;
+    opacity: 0.7;
+}
+
+.body .first-body .head-1 {
+    display: inline;
+    position: relative;
+    bottom: 150px;
+    left: 170px;
+}
+
+.body .first-body .passage-1 {
+    position: relative;
+    bottom: 150px;
+    left: 170px;
+    width: 830px;
+}
+
+.body .first-body .passage-1 p {
+    width: 830px;
+}
+
+.body .first-body .read-more-1 {
+    position: relative;
+    bottom: 133px;
+    left: 170px;
+}
+
+.body .first-body .read-more-1 a {
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+}
+
+.body .hr-1 {
+    position: relative;
+    top: 30px;
+    right: 242px;
+    width: 1000px;
+}
+
+.body .second-body {
+    height: 175px;
+    width: 1000px;
+    position: relative;
+    top: 40px;
+    left: 25px;
+}
+
+.body .second-body .grey-image-2 {
+    background-color: grey;
+    height: 150px;
+    width: 150px;
+    opacity: 0.7;
+}
+
+.body .second-body .head-2 {
+    display: inline;
+    position: relative;
+    bottom: 150px;
+    left: 170px;
+}
+
+.body .second-body .passage-2 {
+    position: relative;
+    bottom: 150px;
+    left: 170px;
+    width: 830px;
+}
+
+.body .second-body .passage-2 p {
+    width: 830px;
+}
+
+.body .second-body .read-more-2 {
+    position: relative;
+    bottom: 133px;
+    left: 170px;
+}
+
+.body .second-body .read-more-2 a {
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+}
+
+.body .hr-2 {
+    position: relative;
+    top: 30px;
+    right: 242px;
+    width: 1000px;
+}
+
+.body .third-body {
+    height: 175px;
+    width: 1000px;
+    position: relative;
+    top: 40px;
+    left: 25px;
+}
+
+.body .third-body .grey-image-3 {
+    background-color: grey;
+    height: 150px;
+    width: 150px;
+    opacity: 0.7;
+}
+
+.body .third-body .head-3 {
+    display: inline;
+    position: relative;
+    bottom: 150px;
+    left: 170px;
+}
+
+.body .third-body .passage-3 {
+    position: relative;
+    bottom: 150px;
+    left: 170px;
+    width: 830px;
+}
+
+.body .third-body .passage-3 p {
+    width: 830px;
+}
+
+.body .third-body .read-more-3 {
+    position: relative;
+    bottom: 133px;
+    left: 170px;
+}
+
+.body .third-body .read-more-3 a {
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+}
+
+.body .hr-3 {
+    position: relative;
+    top: 30px;
+    right: 242px;
+    width: 1000px;
+}
+
+.sidebar {
+    background-color: rgb(206, 206, 206);
+    height: 636px;
+    width: 485px;
+    position: relative;
+    left: 1034px;
+    bottom: 589px;
+}
+.sidebar .side-area .head-1 {
+    opacity: 0.7;
+    position: relative;
+    top: 30px;
+    left: 15px;
+    width: 200px;
+}
+.sidebar .side-area .hr-1 {
+    position: relative;
+    top: 20px;
+    right: 3px;
+    width: 446px
+}
+.sidebar .side-area ul li {
+    list-style: none;
+    margin-top: 10px;
+    position: relative;
+    top: 15px;
+    right: 20px;
+}
+.sidebar .side-area ul li a{
+    text-decoration: none;
+    color: orange;
+}
+.sidebar .side-area .head-2{
+    opacity: 0.7;
+    position: relative;
+    top: 30px;
+    left: 15px;
+    width: 200px;
+}
+.sidebar .side-area .hr-2{
+    position: relative;
+    top: 20px;
+    right: 3px;
+    width: 446px;
+}
+.sidebar .side-area .passages{
+    position: relative;
+    top: 30px;
+    left: 15px;
+    width: 446px;
+}
+.sidebar .side-area .passages p{
+    font-size: 15px;
+    opacity: 0.8;
+    width: 446px;
+}
+.sidebar .side-area .passages .passage-1{
+    margin-top: 25px;
+}
+
+.footer{
+    background-color: rgb(48, 52, 52);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 589px;
+}
+.footer a{
+    text-decoration: none;
+    color: orange;
+}
+.footer p{
+    color: white;
+}

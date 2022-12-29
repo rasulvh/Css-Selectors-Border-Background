@@ -13,4 +13,5 @@ body{
     display: flex;
     align-items: center;
     border-radius: 5px;
+    color: white;
 }
