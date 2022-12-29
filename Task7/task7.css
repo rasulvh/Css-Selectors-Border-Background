@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#main {
+    background-color: rgb(33, 43, 45);
+    height: 884px;
+}
+
+.header {
+    background-image: url(../Task7/Images-Task7/global-reach.jpg);
+    height: 200px;
+    width: 800px;
+    border: 1px solid white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 17px;
+    left: 367.5px;
+}
+
+.header h1 {
+    color: rgb(160,170,172);
+    padding-left: 78px;
+    padding-top: 49px;
+    padding-bottom: 10px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.header span {
+    color: rgb(160,170,172);
+    padding-left: 78px;
+    font-size: 13px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    background-color: rgb(51, 61, 63);
+    width: 800px;
+    height: 40px;
+    margin-left: 367px
+}
+.navbar .nav-area {
+    display: flex;
+    align-items: center;
+}
+.navbar .nav-area ul {
+    display: flex;
+}
+.navbar .nav-area ul li {
+    list-style: none;
+    margin-right: 28px;
+    margin-left: 28px;
+    position: relative;
+    right: 20px;
+}
+.navbar .nav-area ul li a {
+    text-decoration: none;
+    color: rgb(160,170,172);
+    font-size: 15px;
+}
+.navbar .nav-area .vl-1 {
+    border-right: 1.5px solid rgb(62, 72, 74);
+    height: 20px;
+    position: relative;
+    right: 679px;
+}
+.navbar .nav-area .vl-2{
+    border-right: 1.5px solid rgb(62, 72, 74);
+    height: 20px;
+    position: relative;
+    right: 573px; 
+}
+.navbar .nav-area .vl-3{
+    border-right: 1.5px solid rgb(62, 72, 74);
+    height: 20px;
+    position: relative;
+    right: 437px; 
+}
+.navbar .nav-area .vl-4{
+    border-right: 1.5px solid rgb(62, 72, 74);
+    height: 20px;
+    position: relative;
+    right: 301px; 
+}
+.navbar .nav-area .vl-5{
+    border-right: 1.5px solid rgb(62, 72, 74);
+    height: 20px;
+    position: relative;
+    right: 164px; 
+}
+
+.main-menu{
+    height: 300px;
+    width: 152px;
+    position: relative;
+    left: 379px;
+    top: 15px;
+}
+.main-menu h3{
+    color: rgb(160,170,172);
+    padding-top: 15px;
+    padding-left: 20px;
+    position: relative;
+    top: 10px;
+}
+.main-menu ul li{
+    position: relative;
+    top: 25px;
+    list-style-position: inside;
+    font-size: 15px;
+}
+.main-menu ul li a{
+    color: rgb(160,170,172);
+}
+.main-menu .hz-1{
+    width: 253px;
+    color: white;
+    position: relative;
+    bottom: 138px;
+    border-top: 1px solid white;
+    right: 12px;
+    opacity: 0.1;
+}
+.main-menu .vl-6{
+    border-right: 0.5px solid white;
+    height: 171px;
+    position: relative;
+    right: 164px;
+    bottom: 139px;
+    opacity: 0.1;
+}
+.main-menu .hz-2{
+    width: 253px;
+    color: white;
+    position: relative;
+    bottom: 140px;
+    border-top: 1px solid white;
+    right: 12px;
+    opacity: 0.1;
+}
+
+.block{
+    height: 218px;
+    width: 250px;
+    position: relative;
+    left: 358px;
+    bottom: 30px;
+}
+.block h3{
+    color: rgb(160,170,172);
+    padding-top: 15px;
+    padding-left: 41px;
+}
+.block span{
+    color: rgb(160,170,172);
+    padding-left: 20px;
+    position: relative;
+    top: 25px;
+}
+.block p{
+    color: rgb(160,170,172);
+    padding-left: 20px;
+    position: relative;
+    top: 50px;
+}
+.block .hz-3{
+    width: 253px;
+    color: white;
+    position: relative;
+    border-top: 1px solid white;
+    opacity: 0.1;
+    top: 57px;
+    left: 9px;
+}
+.block .vl-7{
+    border-right: 0.5px solid white;
+    height: 191px;
+    bottom: 135px;
+    position: relative;
+    right: 240px;
+    opacity: 0.1;
+}
+
+.gallery{
+    width: 530px;
+    height: 165px;
+    position: relative;
+    left: 638px;
+    bottom: 479px;
+}
+.gallery h3{
+    color: rgb(160,170,172);
+    font-size: 20px;
+    font-weight: 500;
+}
+.gallery .hz-4{
+    width: 515px;
+    color: white;
+    position: relative;
+    border-top: 1px solid white;
+    top: 10px;
+    opacity: 0.4;
+}
+.gallery p{
+    color: rgb(160,170,172);
+    font-size: 13px;
+    position: relative;
+    top: 15px;
+}
+
+.subscription{
+    width: 257px;
+    height: 270px;
+    position: relative;
+    left: 638px;
+    bottom: 454px;
+}
+.subscription h3{
+    color: rgb(160,170,172);
+    font-size: 20px;
+    font-weight: 500;
+}
+.subscription p{
+    color: rgb(160,170,172);
+    font-size: 13px;
+    position: relative;
+    top: 15px;
+}
+.subscription button{
+    position: relative;
+    top: 39px;
+    width: 85px;
+    height: 30px;
+    background-color: rgb(160,170,172);
+    border: 0px;
+    font-weight: 500;
+}
+.subscription .vl-8{
+    border-right: 0.5px solid white;
+    height: 269px;
+    bottom: 231px;
+    position: relative;
+    left: 7px;
+    opacity: 0.1;
+}
+
+.other-services{
+    height: 271px;
+    width: 249px;
+    position: relative;
+    left: 918px;
+    bottom: 720px;
+}
+.other-services h3{
+    color: rgb(160,170,172);
+    font-size: 20px;
+    font-weight: 500;
+}
+.other-services p{
+    color: rgb(160,170,172);
+    font-size: 13px;
+    position: relative;
+    top: 15px;
+}
+.other-services button{
+    position: relative;
+    top: 50px;
+    width: 85px;
+    height: 30px;
+    background-color: rgb(160,170,172);
+    border: 0px;
+    font-weight: 500;
+}
+
+.footer{
+    
+    height: 75px;
+    position: relative;
+    bottom: 680px;
+    left: 368px;
+    width: 799px;
+}
+.footer .hr-5{
+    width: 799px;
+    color: white;
+    position: relative;
+    border-top: 1px solid white;
+    opacity: 0.4;
+}
+.footer span{
+    color: rgb(160,170,172);
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
